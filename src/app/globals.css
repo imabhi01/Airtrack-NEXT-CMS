@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer base {
+  input {
+    @apply text-gray-800 placeholder:text-gray-400;
+  }
+}
